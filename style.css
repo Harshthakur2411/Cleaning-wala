@@ -1,0 +1,56 @@
+
+.custom-navbar {
+    background-color: #cdfd92; 
+}
+
+.custom-navbar .nav-link {
+    color: black; 
+}
+
+.custom-navbar .nav-link:hover {
+    color: #6b8e23; 
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%; /* Position 50% from the top */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    color: white; /* Text color */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Optional: Text shadow for visibility */
+    z-index: 3; /* Ensure text is above overlay */
+}
+
+.carousel-caption h1 {
+    font-size: 3rem; /* Adjust size as needed */
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem; /* Adjust size as needed */
+}
+.carousel-caption {
+    background-color: rgba(85, 226, 25, 0.5); /* Black background with 50% opacity */
+    padding: 20px;
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+.whatsapps {
+    position: fixed; /* Fixes the logo's position on the screen */
+    bottom: 30px; /* 20px from the bottom of the screen */
+    left: 30px; /* 20px from the right edge of the screen */
+    z-index: 100; /* Ensures it stays above other elements */
+}
+
+.whatsapp {
+    width: 50px; /* Adjust the size of the logo */
+    height: 50px;
+    cursor: pointer; /* Changes the cursor to a pointer when hovering */
+    transition: transform 0.2s ease-in-out; /* Adds a hover effect */
+}
+
+.whatsapp:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+
